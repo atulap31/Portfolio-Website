@@ -1,0 +1,79 @@
+/* Responsive for 1100px */
+
+@media screen and (max-width: 1100px) {
+  /* Navbar */
+
+  .left-section h1 {
+    font-size: 2rem;
+  }
+
+  .right-section ul li {
+    font-size: 1.25rem;
+  }
+
+  /* Home */
+
+  .about-pic img {
+    height: 350px;
+  }
+
+  .about-info span {
+    font-size: 2.2rem;
+  }
+
+  .about-info h2 {
+    font-size: 2.2rem;
+  }
+
+  .title-text {
+    font-size: 1.3rem;
+  }
+
+  .title-text-2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  /* About */
+
+  .secHeadInfo h1 {
+    margin: 10px 0;
+  }
+
+  .secHeadInfo span {
+    font-size: 1.2rem;
+    font-weight: 200;
+    top: 10px;
+  }
+
+  .container ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+  }
+
+  .sub-box ul h1{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .sub-box{
+    height: 37vh;
+    width: 34vw;
+  }
+
+  .skill-icon{
+    height: 25px;
+    position: relative;
+    top: 8px;
+    right: 5px;
+  }
+
+  
+
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="./assets/svg/portfolio.png " />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="my-navbar">
+        <div class="left-section">
+          <h1>Atul Panse's Portfolio</h1>
+        </div>
+        <div class="right-section">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="home">
+      <div class="about-pic">
+        <img src="./assets/developer.png.png" alt="developer image" />
+      </div>
+      <div class="about-info">
+        <span class="title-text">Welcome to</span>
+        <h2 class="title highlight">Atul Panse's Portfolio</h2>
+        <span class="title-text">I am a</span><br />
+        <span id="element" class="title-text-2 highlight"></span>
+      </div>
+    </section>
+    <hr />
+    <section id="about">
+      <div class="secHeadInfo">
+        <span class="title-text">What I Know</span>
+        <h1 class="title">About</h1>
+        <p>Here are my skills and some insights of what I know</p>
+      </div>
+      <div class="container">
+        <div class="frontend sub-box">
+          <ul>
+            <h1>Frontend</h1>
+            <li>
+              <img src="./assets/svg/html.svg" class="skill-icon" alt="" />HTML
+            </li>
+            <li>
+              <img src="./assets/svg/css.svg" class="skill-icon" alt="" />CSS
+            </li>
+            <li>
+              <img
+                src="./assets/svg/javascript.svg"
+                class="skill-icon"
+                alt=""
+              />JavaScript
+            </li>
+            <li>
+              <img
+                src="./assets/svg/reactjs.svg"
+                class="skill-icon"
+                alt=""
+              />React JS
+            </li>
+          </ul>
+        </div>
+        <div class="backend sub-box">
+          <ul>
+            <h1>Backend</h1>
+            <li>
+              <img
+                src="./assets/svg/nodejs.svg"
+                class="skill-icon"
+                alt=""
+              />Node JS
+            </li>
+            <li>
+              <img
+                src="./assets/svg/expressjs.svg"
+                class="skill-icon"
+                alt=""
+              />Express Js
+            </li>
+            <li>
+              <img
+                src="./assets/svg/postgreSQL.svg"
+                class="skill-icon"
+                alt=""
+              />PostgreSQL
+            </li>
+            <li>
+              <img
+                src="./assets/svg/mongoDB.svg"
+                class="skill-icon"
+                alt=""
+              />MongoDB
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="projects">
+      <div class="secProjInfo">
+        <h1 class="title">Projects</h1>
+        <p>Here is my work and personal projects</p>
+      </div>
+
+      <div class="projects-gallery">
+        <div class="card">
+          <img
+            src="./assets/Project Covers/portfolio-cover.png"
+            class="card-img-top"
+            alt="Portfolio-cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Personal Portfolio</h5>
+            <p class="card-text">
+              Tech Stack : HTML ,CSS, JavaScript Personal Portfolio website to
+              showcase information.
+            </p>
+            <a href="./index.html" class="btn btn-primary">Click to see</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/Project Covers/drumkit-cover.png"
+            class="card-img-top"
+            alt="Portfolio-cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Drumkit Website</h5>
+            <p class="card-text">
+              Tech Stack : HTML ,CSS, JavaScript Drumkit website where different
+              sound play on keypress.
+            </p>
+            <a
+              href="./projects/Drum Kit Website/index.html"
+              class="btn btn-primary"
+              >Click to see</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/Project Covers/simon-game-cover.png"
+            class="card-img-top"
+            alt="Portfolio-cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Simon Game</h5>
+            <p class="card-text">
+              Tech Stack : HTML ,CSS, JavaScript Famous Simon Game where every
+              sequence takes to next level.
+            </p>
+            <a
+              href="./projects/Simon Game Challenge Starting Files/index.html"
+              class="btn btn-primary"
+              >Click to see</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="contact">
+      <div class="secContactInfo">
+        <h1 class="title">Contact Me</h1>
+        <p>Get in touch with me</p>
+      </div>
+      <div class="form">
+        <form action="#">
+          <div class="input-box">
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Full Name"
+                id="name"
+                class="item"
+                autocomplete="off"
+              />
+            </div>
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Email Address"
+                id="email"
+                class="item"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+          <div class="input-box">
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Phone Number"
+                id="number"
+                class="item"
+                autocomplete="off"
+              />
+            </div>
+            <div class="input-field field">
+              <input
+                type="text"
+                placeholder="Subject"
+                id="subject"
+                class="item"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+          <div class="textarea-field field">
+            <textarea
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+              class="item"
+              autocomplete="off"
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <hr />
+    </section>
+    <footer>
+      <div class="lastSec">
+        <span>Copyright &#169; Atul Panse's Portfolio</span>
+        <span class="links">
+          <img src="./assets/svg/linkedin.svg" alt="" class="footerIcon" />
+          <a href="https://www.linkedin.com/in/atul-panse-4519821bb/"
+            >Linkedin</a
+          >
+        </span>
+        <span class="links">
+          <img src="./assets/svg/contact me.png" alt="" class="footerIcon" />
+          <a href="mailto:panseatul2001@gmail.com">Contant Me</a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Full Stack Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
