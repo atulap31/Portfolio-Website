@@ -279,6 +279,14 @@ header{
   width: 45.5%;
 }
 
+.error-text{
+  font-size: 14.5px;
+  color: #d93025;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+
 .item{
   width: 100%;
   padding: 18px;
